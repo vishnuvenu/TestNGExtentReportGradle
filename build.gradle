@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.testng:testng:6.10'
+    compile group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
+
+
+
+}
+test {
+    // enable TestNG support (default is JUnit)
+    useTestNG()
+
+    //Show full exception on failure
+    testLogging {
+        exceptionFormat = 'full'
+    }
+}

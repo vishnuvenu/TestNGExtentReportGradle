@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNG1" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-08T07:14:26" hostname="BHIDH6Q5M2" time="0.31">
+  <properties/>
+  <testcase name="test1" classname="TestNG1" time="0.028"/>
+  <testcase name="test2" classname="TestNG1" time="0.0"/>
+  <system-out><![CDATA[before method
+after method
+before method
+after method
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
